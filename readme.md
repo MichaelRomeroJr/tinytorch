@@ -77,3 +77,7 @@ python scripts/generate.py -p "Hello World"
 The default setup is intentionally small to demonstrate the complete LLM training workflow with minimal computational requirements.
 
 For improved model performance, increase `MAX_STEPS`, expand the training dataset, and adjust model dimensions (`N_EMBD`, `N_HEAD`, and `N_LAYER`) based on available GPU memory and computational resources.
+
+
+TODO:
+add /checkpoint/tiny_llm_checkpoint.pth (25MB limit)
